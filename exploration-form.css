@@ -1,0 +1,87 @@
+body{
+    background-image: url(Universe.jpeg.jpg);
+    background-size: cover;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+#logo{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 10vh;          /* Takes viewport height */
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.personal{
+    color: rgb(177, 154, 154);
+    text-align: center;
+    font-size: 30px;
+}
+.name{
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    
+}
+.message{
+    width: 40%;
+    height: 100px;
+    font-family: arial;
+}
+h3{
+    color: white;
+}
+.inputs{
+    height: 25px;
+    width: 200px;
+    padding: 5px;
+    border: 2px solid rgb(210, 175, 175);
+    margin-top: 10px;
+    color: black;
+}
+.btn{
+    background: white;
+    padding: 5px;
+    border: none;
+    font-family: times;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+    color: #7D727D;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.btn-clear{
+    background: white;
+    padding: 5px;
+    border: none;
+    font-family: times;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+    color: #7D727D;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.contact{
+    color: white;
+}
+.link{
+    color: white;
+    text-decoration: underline;
+}
+.copyright{
+    text-align: right;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: arial;
+}
+.form ::placeholder{
+    color: #878587;
+    font-size: 12px;
+}
